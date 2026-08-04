@@ -72,36 +72,6 @@ E	Attendance Type
 Code Organization
 Main.py
 
-Responsible for:
-
-Creating the graphical user interface
-Collecting user input
-Opening the Excel workbook
-Sending data for storage
-Insere.py
-
-Responsible for:
-
-Finding the next available row
-Writing data to the spreadsheet
-Applying cell alignment
-Applying color formatting based on attendance type
-Saving the workbook
-Dependencies
-Python >= 3.10
-openpyxl
-tkinter
-Future Improvements
-Student search by ID
-Record editing
-Record deletion
-Attendance reports
-Date filtering
-Attendance statistics
-PDF export
-SQLite or PostgreSQL integration
-Student ID validation
-Improved graphical interface
 
 # Demo
 
