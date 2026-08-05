@@ -27,7 +27,7 @@ Project Structure:<br>
 ├── Interface.py   # Main application interface<br>
 ├── Insere.py   # Excel data handling<br>
 ├── Pasta2.xlsx   # Attendance database<br>
-└── README.md
+
 
 Installation
 
