@@ -1,8 +1,6 @@
-
-https://github.com/user-attachments/assets/ad7c6b39-eb9e-4d3b-94d9-fffeb5ff3bf0
 ## Student Attendance Registration System
 
-#Description
+Description:
 
 This application was developed in Python to record student attendance through a graphical user interface built with Tkinter. The collected data is automatically stored in an Excel spreadsheet using the OpenPyXL library.
 
