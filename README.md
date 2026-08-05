@@ -1,8 +1,8 @@
-## Student Attendance Registration System
+# Student Attendance Registration System
 
 A desktop application developed in Python to simplify student attendance registration through an intuitive graphical interface. The application stores attendance records in an Excel spreadsheet, making it easy to maintain and manage attendance history.
 
-# Features
+## Features
 User-friendly graphical interface built with Tkinter
 Student ID validation
 AM/PM period selection
@@ -12,11 +12,18 @@ Automatic date registration
 Automatic data storage in an Excel workbook
 Color-coded spreadsheet formatting for improved readability
 Automatic saving after each registration
-Built With
+
+## Built With:
 Python 3
 Tkinter
+tkinter.messagebox
+tkinter.ttk
 OpenPyXL
-Project Structure
+os
+datetime
+openpyxl.styles (Alignment and PatternFill)
+
+Project Structure:
 .
 ├── Interface.py      # Main application interface
 ├── Insere.py         # Excel data handling
@@ -24,18 +31,7 @@ Project Structure
 └── README.md
 Installation
 
-Clone this repository:
-
-
-
-Navigate to the project directory:
-
-cd your-repository
-
-# Install the required dependency:
-
-pip install openpyxl
-Usage
+## Usage
 
 Run the application:
 
@@ -45,13 +41,13 @@ Then:
 
 Select the session time.
 Enter the student's ID.
-Choose the attendance period (AM or PM).
+Choose the attendance period of the day (AM or PM).
 Select the attendance type (In-person or Online).
-Click Gravar Dados (Save Data).
+Click "Gravar Dados" (Save Data).
 The record will be automatically saved in the Excel spreadsheet.
 Excel Output
 
-# Each attendance record includes:
+## Each attendance record includes:
 
 Field	Description
 Date	Registration date
@@ -60,7 +56,7 @@ Period	AM or PM
 Session Time	Selected session time
 Attendance Type	In-person or Online
 
-# The spreadsheet is automatically formatted to improve readability:
+## The spreadsheet is automatically formatted to improve readability:
 
 Light green for the Date column
 Light blue for In-person attendance
@@ -70,18 +66,10 @@ Requirements
 Python 3.10+
 OpenPyXL
 
-# Install dependencies:
-
+## Install dependencies:
+Python 3.10 or later
 pip install openpyxl
-Future Improvements
-Student search by ID
-Attendance editing and deletion
-Export to CSV or PDF
-Attendance statistics dashboard
-Database integration (SQLite/MySQL/PostgreSQL)
-User authentication
-Automatic report generation
-
+An existing Excel workbook 
 
 # Demo
 
