@@ -1,3 +1,5 @@
+
+https://github.com/user-attachments/assets/ad7c6b39-eb9e-4d3b-94d9-fffeb5ff3bf0
 ## Student Attendance Registration System
 
 #Description
@@ -75,5 +77,18 @@ Main.py
 
 # Demo
 
-https://github.com/user-attachments/assets/f5cd22a7-2261-448c-b238-fd403182f907
+https://github.com/user-attachments/assets/c8630da0-723a-4942-82cb-bdd50bb040da
+
+
+
+
+
+
+
+
+
+
+
+
+
 
