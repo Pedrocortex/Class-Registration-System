@@ -1,6 +1,6 @@
 from openpyxl import load_workbook
 import os
-from    
+from openpyxl.styles import Alignment,  PatternFill   
 
     
 def dia(idd,periodo, linha_busca,tipo,hor,wb,aba,Dia_hoje,nome_arquivo):
