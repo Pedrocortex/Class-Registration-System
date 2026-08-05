@@ -23,7 +23,7 @@ os<br>
 datetime<br>
 openpyxl.styles (Alignment and PatternFill)
 
-Project Structure:
+Project Structure:<br>
 ├── Interface.py   # Main application interface<br>
 ├── Insere.py   # Excel data handling<br>
 ├── Pasta2.xlsx   # Attendance database<br>
@@ -49,26 +49,26 @@ Excel Output
 
 ## Each attendance record includes:
 
-Field	Description
-Date	Registration date
-Student ID	Student identification number
-Period	AM or PM
-Session Time	Selected session time
+Field	Description<br>
+Date	Registration date<br>
+Student ID	Student identification number<br>
+Period	AM or PM<br>
+Session Time	Selected session time<br>
 Attendance Type	In-person or Online
 
 ## The spreadsheet is automatically formatted to improve readability:
 
-Light green for the Date column
-Light blue for In-person attendance
-Light yellow for Online attendance
-Center-aligned cell content
-Requirements
-Python 3.10+
+Light green for the Date column<br>
+Light blue for In-person attendance<br>
+Light yellow for Online attendance<br>
+Center-aligned cell content<br>
+Requirements<br>
+Python 3.10+<br>
 OpenPyXL
 
 ## Install dependencies:
-Python 3.10 or later
-pip install openpyxl
+Python 3.10 or later<br>
+pip install openpyxl<br>
 An existing Excel workbook 
 
 # Demo
