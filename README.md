@@ -14,20 +14,13 @@ Color-coded spreadsheet formatting for improved readability
 Automatic saving after each registration
 
 ## Built With:
-Python 3
-
-Tkinter
-
-tkinter.messagebox
-
-tkinter.ttk
-
-OpenPyXL
-
-os
-
-datetime
-
+Python 3<br>
+Tkinter<br>
+tkinter.messagebox<br>
+tkinter.ttk<br>
+OpenPyXL<br>
+os<br>
+datetime<br>
 openpyxl.styles (Alignment and PatternFill)
 
 Project Structure:
