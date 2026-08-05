@@ -24,10 +24,10 @@ datetime<br>
 openpyxl.styles (Alignment and PatternFill)
 
 Project Structure:
-├── Interface.py<br>      # Main application interface
-├── Insere.py<br>         # Excel data handling
-├── Pasta2.xlsx<br>       # Attendance database
-└── README.md<br>
+├── Interface.py   # Main application interface<br>
+├── Insere.py   # Excel data handling<br>
+├── Pasta2.xlsx   # Attendance database<br>
+└── README.md
 
 Installation
 
