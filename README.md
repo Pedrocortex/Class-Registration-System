@@ -1,79 +1,133 @@
-# Student Attendance Registration System
+# Class Registration System
 
-A desktop application developed in Python to simplify student attendance registration through an intuitive graphical interface. The application stores attendance records in an Excel spreadsheet, making it easy to maintain and manage attendance history.
+A lightweight Python desktop application for recording class attendance and storing lesson information in an Excel spreadsheet.
+
+The application provides a simple graphical interface that allows instructors to quickly register classes by entering the student ID, class schedule, period, and attendance type.
 
 ## Features
-User-friendly graphical interface built with Tkinter
-Student ID validation
-AM/PM period selection
-Attendance type selection (In-person or Online)
-Session time selection
-Automatic date registration
-Automatic data storage in an Excel workbook
-Color-coded spreadsheet formatting for improved readability
-Automatic saving after each registration
 
-## Built With:
-Python 3<br>
-Tkinter<br>
-tkinter.messagebox<br>
-tkinter.ttk<br>
-OpenPyXL<br>
-os<br>
-datetime<br>
-openpyxl.styles (Alignment and PatternFill)
+- Desktop interface built with Tkinter
+- Register student ID
+- Select class schedule (1–12)
+- Choose class period:
+  - AM
+  - PM
+- Select attendance type:
+  - In-person
+  - Online
+- Automatically records the current date
+- Stores all records in an Excel workbook
+- Color-coded attendance types for easier visualization
 
-Project Structure:<br>
-├── Interface.py   # Main application interface<br>
-├── Insere.py   # Excel data handling<br>
-├── Pasta2.xlsx   # Attendance database<br>
+## Technologies
 
+- Python 3
+- Tkinter
+- OpenPyXL
+- Microsoft Excel (.xlsx)
 
-Installation
+## Project Structure
+
+```
+.
+├── Interface.py        # Graphical User Interface
+├── Insere.py           # Excel data management
+├── Pasta2.xlsx         # Data storage
+├── README.md
+└── requirements.txt
+```
+
+## Requirements
+
+- Python 3.10 or higher
+
+## Dependencies
+
+Install the required package:
+
+```bash
+pip install openpyxl
+```
+
+Or install all dependencies using:
+
+```bash
+pip install -r requirements.txt
+```
+
+### requirements.txt
+
+```text
+openpyxl>=3.1.0
+```
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/class-registration-system.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd class-registration-system
+```
+
+Install the dependencies:
+
+```bash
+pip install -r requirements.txt
+```
 
 ## Usage
 
 Run the application:
 
+```bash
 python Interface.py
+```
 
-Then:
+Fill in the required information:
 
-Select the session time.
-Enter the student's ID.
-Choose the attendance period of the day (AM or PM).
-Select the attendance type (In-person or Online).
-Click "Gravar Dados" (Save Data).
-The record will be automatically saved in the Excel spreadsheet.
-Excel Output
+- Student ID
+- Class Schedule
+- Period (AM or PM)
+- Attendance Type (In-person or Online)
 
-## Each attendance record includes:
+Click **Save Data** to store the record in the Excel spreadsheet.
 
-Field	Description<br>
-Date	Registration date<br>
-Student ID	Student identification number<br>
-Period	AM or PM<br>
-Session Time	Selected session time<br>
-Attendance Type	In-person or Online
+## Data Organization
 
-## The spreadsheet is automatically formatted to improve readability:
+Each registered class contains:
 
-Light green for the Date column<br>
-Light blue for In-person attendance<br>
-Light yellow for Online attendance<br>
-Center-aligned cell content<br>
-Requirements<br>
-Python 3.10+<br>
-OpenPyXL
+- Date
+- Student ID
+- Period
+- Class Schedule
+- Attendance Type
 
-## Install dependencies:
-Python 3.10 or later<br>
-pip install openpyxl<br>
-An existing Excel workbook 
+The data structure allows easy filtering, reporting, and analysis using Microsoft Excel or business intelligence tools.
+
+## Future Improvements
+
+- Student search
+- Automatic duplicate detection
+- Attendance statistics
+- Dashboard with charts
+- CSV export
 
 # Demo
 
 https://github.com/user-attachments/assets/bfa93484-972a-49a4-8537-fa0811ec4fd0
+
+
+## License
+
+This project is licensed under the MIT License.
+
+
 
 
 
